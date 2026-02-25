@@ -2,6 +2,10 @@
 
 A simple Progressive Web App built with Next.js featuring a red button that plays a sound.
 
+## 🌐 Live Demo
+
+**https://sidpetkar.github.io/faaaa-react**
+
 ## Features
 
 - 🔴 Big red button with skull emoji
@@ -52,3 +56,8 @@ faaa-react/
 - React 19
 - next-pwa
 - CSS3
+
+## Deployment
+
+Automatically deployed to GitHub Pages via GitHub Actions.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions.
