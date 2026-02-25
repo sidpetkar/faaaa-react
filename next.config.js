@@ -14,6 +14,6 @@ module.exports = withPWA({
     unoptimized: true,
   },
   env: {
-    BASE_PATH: '/faaaa-react',
+    NEXT_PUBLIC_BASE_PATH: '/faaaa-react',
   },
 });

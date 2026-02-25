@@ -7,8 +7,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const playSound = () => {
-    // Use the BASE_PATH env variable for production builds
-    const basePath = process.env.BASE_PATH || '';
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
     const audio = new Audio(`${basePath}/faaa.mp3`);
     setIsPlaying(true);
     

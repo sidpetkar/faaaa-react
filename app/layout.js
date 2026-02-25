@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata = {
   title: 'FAAAAA',
   description: 'Press the red button',
-  manifest: '/manifest.json',
+  manifest: '/faaaa-react/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="icon" href="/faaaa-react/favicon.ico" />
+        <link rel="apple-touch-icon" href="/faaaa-react/icon-192x192.png" />
       </head>
       <body>{children}</body>
     </html>
