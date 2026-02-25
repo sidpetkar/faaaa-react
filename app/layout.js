@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/faaaa-react/favicon.ico" />
-        <link rel="apple-touch-icon" href="/faaaa-react/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/faaaa-react/apple-touch-icon.png" />
       </head>
       <body>{children}</body>
     </html>
