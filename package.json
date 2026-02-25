@@ -2,11 +2,14 @@
   "name": "faaa-react",
   "version": "1.0.0",
   "description": "PWA with red button and sound",
+  "homepage": "https://sidpetkar.github.io/faaaa-react",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "next build && touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy to GitHub Pages\" && git subtree push --prefix out origin gh-pages"
   },
   "keywords": [],
   "author": "",
