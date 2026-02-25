@@ -1,0 +1,23 @@
+{
+  "name": "faaa-react",
+  "version": "1.0.0",
+  "description": "PWA with red button and sound",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.1.5",
+    "next-pwa": "^5.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
