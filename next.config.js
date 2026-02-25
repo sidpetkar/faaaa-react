@@ -9,7 +9,11 @@ module.exports = withPWA({
   reactStrictMode: true,
   output: 'export',
   basePath: '/faaaa-react',
+  assetPrefix: '/faaaa-react',
   images: {
     unoptimized: true,
+  },
+  env: {
+    BASE_PATH: '/faaaa-react',
   },
 });
